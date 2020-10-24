@@ -1,8 +1,16 @@
 .top-bar{
 background-color: teal;
 color: aliceblue;
+padding: 2px;
+padding-left: 1cm;
 
 }
+ .custm-3 h3:hover {
+   color: red;
+   text-decoration: underline;
+  }
+  
+
 .navbar-brand{
 background-color: red;
 float: left;
@@ -10,4 +18,48 @@ padding: 12px;
 color: white;
 text-decoration: none;
 font-size: 17px;
+}
+
+.carousel-item img{
+    width: 400px;
+    height:500px;
+    margin: 0.5cm;
+}
+.carousel-caption{
+float: left;
+
+
+}
+
+.card{
+    margin: 0.5cm;
+    
+}
+.card .card-img {
+
+    width: 10cm;
+    height:6cm;
+    
+}
+.card .card-img-overlay{
+
+padding-top: 3cm;
+font-family: Arial;
+}
+
+.custm-2  img{
+width: auto;
+height: 6cm;
+
+
+}
+
+.card-group{
+
+outline: invert;
+
+}
+.card .card-body{
+    margin: 1ch;
+
 }
