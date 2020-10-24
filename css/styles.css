@@ -1,0 +1,13 @@
+.top-bar{
+background-color: teal;
+color: aliceblue;
+
+}
+.navbar-brand{
+background-color: red;
+float: left;
+padding: 12px;
+color: white;
+text-decoration: none;
+font-size: 17px;
+}
