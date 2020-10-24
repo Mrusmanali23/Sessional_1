@@ -54,6 +54,24 @@ height: 6cm;
 
 }
 
+.input-group.md-form.form-sm.form-2 input.amber-border {
+    border: 1px solid #ffca28;
+  }
+
+
+.nice {
+text-decoration: underline;
+text-decoration-color: black;
+text-decoration-style: ;
+
+}
+
+.red-1{
+    background-color: red;
+
+
+}
+
 .card-group{
 
 outline: invert;
@@ -62,4 +80,137 @@ outline: invert;
 .card .card-body{
     margin: 1ch;
 
+}
+
+
+.custm-4 a{
+    color: black;
+   margin: 1px;
+   text-align: justify;
+   
+   }
+
+
+.custm-4 a:hover{
+ color: red;
+ content: '\f101';
+ 
+
+}
+
+
+
+
+
+
+.footer{
+
+	background-color: #1d2022;
+}
+
+.footerheading {
+    color: #FF5A5F!important;
+    text-decoration: inherit;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+ul li{
+
+	color: #a3a3a3;
+	list-style: none;
+
+
+}
+
+ul li a:hover{
+
+	color: #FF5A5F!important;
+	list-style: none;
+
+
+}
+
+.direct li:before {    
+    font-family: 'FontAwesome';
+    content: '\f101';
+    margin:0 5px 0 -15px;
+    color: #a3a3a3;
+    font-size: 14px;
+
+}
+
+ .direct  a{
+	color: #a3a3a3!important;
+}
+
+.footerwidget{
+
+	margin-left: -25px;
+}
+
+hr{
+
+	margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgb(234 233 233 / 29%)!important;
+
+
+}
+
+.gallerypic{
+
+	width: 100%;
+	height: auto;
+}
+
+
+.imgcol{
+
+	padding: 2.5px!important;
+}
+
+.footerheading2{
+
+	font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    
+    margin-bottom: 20px;
+}
+
+.footerparagraph{
+
+	color: #a3a3a3!important;
+}
+
+
+.footersubbtn{
+
+	background: #FF5A5F none repeat scroll 0 0;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1;
+    padding: 11px 35px;
+    display: inline-block;
+    font-family: 'Domine', serif;
+    border: 1px solid #FF5A5F;
+    font-weight: 400;
+}
+
+.footersubbtn:hover{
+
+	-webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+    background-color: #1d2022;
+    border-color: #FF5A5F;
+    color: #FF5A5F;
+}
+
+a:hover{
+
+	text-decoration : none!important;
 }
